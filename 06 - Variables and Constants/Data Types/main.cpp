@@ -1,15 +1,23 @@
+// Section 6
+// Primitive Types
+
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    char middle_initial('J');
+    // Character type
+    char middle_initial('J'); // Notice the single quotes around characters
     cout << "My middle initial is " << middle_initial << endl;
-
-    unsigned short int exam_score(55);
+    
+    /***************
+     * Integer types
+    ***************/
+    
+    unsigned short int exam_score(55); // same as unsigned short exam_score(55);
     cout << "My exam score was " << exam_score << endl;
-
+ 
     int countries_represented(65);
     cout << "There was " << countries_represented << " countries represented in my meeting." << endl;
 
@@ -18,6 +26,10 @@ int main()
 
     long long people_on_earth(7600000000);
     cout << "There are about " << people_on_earth << " people on earth." << endl;
+    
+    /**********************
+     * Floating point types
+    **********************/
 
     float car_payment(401.23);
     cout << "My car payment is " << car_payment << endl;
@@ -27,9 +39,22 @@ int main()
 
     long double large_amount(2.7e120);
     cout << large_amount << " is a very big number." << endl;
+    
+    /**************
+     * Boolean type
+    **************/
 
     bool game_over(false);
     cout << "The value of game over is " << game_over << endl;
 
+    /******************
+     * Overflow example
+    ******************/
+
+    short value1(30000);
+    short value2(1000);
+    short product(value1 * value2);
+
+    cout << "The product of " << value1 << " and " << value2 << " is " << product << endl;
     return 0;
 }
