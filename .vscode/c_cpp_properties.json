@@ -11,7 +11,8 @@
             "intelliSenseMode": "macos-gcc-arm",
             "cStandard": "c99",
             "cppStandard": "c++20",
-            "compilerArgs": []
+            "compilerArgs": [],
+            "compileCommands": "${workspaceFolder}/Section17/.codelite/compile_commands.json"
         }
     ],
     "version": 4
