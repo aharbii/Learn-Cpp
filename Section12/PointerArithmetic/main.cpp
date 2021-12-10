@@ -17,7 +17,7 @@ int main() {
     
     cout << "\n-------------------------" << endl;
     score_ptr = scores;
-    while (*score_ptr != -1)
+    while (*score_ptr != -1) 
         cout << *score_ptr++ << endl;
         
     cout << "\n-------------------------" << endl;
@@ -42,7 +42,7 @@ int main() {
 
     cout << "\n-------------------------" << endl;
     char name[]  {"Frank"};
-    
+     
     char *char_ptr1 {nullptr};
     char *char_ptr2{nullptr};
     
