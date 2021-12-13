@@ -5,17 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "clang++ - Build and debug active file",
+            "name": "g++ - Build and debug active file",
             "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": true,
-            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "clang++ build active file"
+            "preLaunchTask": "C/C++: g++ build active file ver(1)"
         }
     ]
 }
