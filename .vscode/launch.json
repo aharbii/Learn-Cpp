@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "clang++ - Build and debug active file",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
