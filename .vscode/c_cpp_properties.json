@@ -6,13 +6,13 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "macFrameworkPath": [],
-            "compilerPath": "/Applications/ARM/bin/arm-none-eabi-gcc",
-            "intelliSenseMode": "macos-gcc-arm",
-            "cStandard": "c99",
-            "cppStandard": "c++20",
-            "compilerArgs": [],
-            "compileCommands": "${workspaceFolder}/Section17/.codelite/compile_commands.json"
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
