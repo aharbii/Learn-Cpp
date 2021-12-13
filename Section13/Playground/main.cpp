@@ -6,9 +6,9 @@ using namespace std;
 
 class Player {
     // Attributes
-    string name{};
-    int health{};
-    int xp{};
+    string name{"Player"};
+    int health{100};
+    int xp{0};
 
     // Methods
     void talk(string);
@@ -17,8 +17,8 @@ class Player {
 
 class Account {
     // attributes
-    string name{};
-    double balance{};
+    string name{"Account"};
+    double balance{0.0};
 
     // methods
     bool deposit(double);
