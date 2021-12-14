@@ -11,7 +11,7 @@
                 "${fileDirname}/*.cpp",
                 "-o",
                 "-Wall",
-                "-std=c++17",
+                "-std=c++20",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
